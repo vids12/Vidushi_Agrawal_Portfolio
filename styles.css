@@ -8,6 +8,8 @@ hr{
 }
 :root{
     --primary-colors:#6EE7B7;
+    --dark-gray:#6B7280;
+    --off-white:#F3F4F6
 }
 
 /* containers */
@@ -68,4 +70,48 @@ hr{
 }
 .navigation .nav-pills{
     text-align: right;
+}
+
+/* header */
+
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+     max-width: 350px;
+     display: block;
+     margin: auto;
+}
+.hero .hero-header{
+    text-align: center;
+    color: var(--dark-gray);
+    padding-top: 1rem;
+}
+
+/* section */
+
+.section h3{
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
+}
+.section{
+    padding: 1rem;
+}
+
+/* footer */
+
+.footer{
+    text-align: center;
+    background-color: var(--primary-colors);
+    color: white;
+    border-top-right-radius: 1rem;
+    padding: 2rem 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul {
+    padding-inline-start: 0px;
 }

@@ -68,32 +68,41 @@
 <hr>
 
 <h2>@header</h2>
-<header>
-    <img src="images/hero_image.svg" alt="heroPic">
-    <h1>heading in header</h1>
+<header class="hero">
+    <img  class="hero-img" src="images/hero_image.svg" alt="heroPic">
+    <h1 class="hero-header">heading in <span style="color: var(--primary-colors);">header</span></h1>
 </header>
 <hr>
 
 <h2>@section</h2>
-<section>
+<section class="section">
     <h3>Normal Section</h3>
-    <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
-        or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
-        to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
-    <h3>Off White Section</h3>
-    <p>We are an open community of developers building resources for a better Web, regardless of brand, browser,
+    <p class="container-center">We are an open community of developers building resources for a better Web, regardless of brand, browser,
         or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
         to drive innovation on the Web to serve the greater good. It starts here, with you.</p>
 </section>
+<section>
+    <div class="ow section">
+        <h3>Off White Section</h3>
+        <p class="container-center ">We are an open community of developers building resources for a better Web, regardless of brand, browser,
+            or platform. Anyone can contribute and each person who does makes us stronger. Together we can continue
+            to drive innovation on the Web to serve the greater good. It starts here, with you.</p></div>
+</section>
 <hr>
 <h2>@footer</h2>
-<footer>
-    <div>Some small texts</div>
-    <ul>
-        <!-- add link  -->
-     <li>SocialOne</li>
-     <li>SocialTwo</li>
-        <li>SocialThree</li>
+<footer class="footer">
+    <div class="footer-header">Some small texts</div>
+    <ul class="social-sites">
+       
+        <li class="list-inline">
+            <a class="link" href="#">SocialOne</a>
+        </li>
+        <li class="list-inline">
+            <a class="link" href="#">SocialTwo</a>
+        </li>
+        <li class="list-inline">
+            <a class="link" href="#">SocialThree</a>
+        </li>
     </ul>
 </footer>
 </body>
