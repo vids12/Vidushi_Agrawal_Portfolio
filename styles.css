@@ -37,3 +37,11 @@ hr{
 }
 
 /* lists */
+.list-no-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
