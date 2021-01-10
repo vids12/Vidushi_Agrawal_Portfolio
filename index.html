@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>Vidushi's Component Library</h1>
@@ -17,14 +18,14 @@
 
     <h2>@containers</h2>
     <h3>Fluid Container</h3>
-    <p>This is a fluid container and it will go till the end of the page</p>
+    <div class="container"><p>This is a fluid container and it will go till the end of the page</p></div>
     <h3>Center Container</h3>
-    <p>This is a centered container and it will go till the specified width</p>
+    <div class="container container-center"><p>This is a centered container and it will go till the specified width</p></div>
     <hr>
 
     <h2>@links</h2>
-    <a href="/">primarylink</a>
-    <a href="#">secondarylink</a>
+    <a class="link-primary link" href="/">primarylink</a>
+    <a class="link-secondary link" href="#">secondarylink</a>
     <hr>
 
     <h2>@lists</h2>
