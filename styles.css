@@ -90,6 +90,11 @@ hr{
 .hero .header-inverted{
     color: var(--primary-colors);
 }
+.hero .img{
+    max-width: 200px;
+     display: block;
+     margin: auto;
+}
 /* section */
 
 .section h3{
